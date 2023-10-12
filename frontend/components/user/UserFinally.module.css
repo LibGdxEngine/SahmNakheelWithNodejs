@@ -1,0 +1,59 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 5rem;
+}
+
+.welcome__message_container {
+  /* background-color: red; */
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.submit {
+  border: 0;
+  border-radius: 91px;
+  background: #a7727d;
+  width: 150px;
+  text-align: center;
+  height: 35px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #ba6d7b;
+}
+
+.ConfirmationModal {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  max-width: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ConfirmationModal p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.ConfirmationModal button {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  width: 6rem;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
